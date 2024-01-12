@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="estilo.css"> 
+</head>
+<body>
+    <header> 
+        <h1>Analisador de Números</h1>
+
+    </header>
+    
+    <section>
+        <div">
+            <p>
+                <input type="number" id="fnum" size="10" placeholder="Digite um número de 1 a 100">
+                <input type="button" value="Adicionar" onclick="adicionar()">
+            </p>
+        </div>
+        <div id="option">
+            <select name="flista" id="flista" size="10"> <!--size tamanho-->
+                
+            </select>            
+        </div>
+        <input type="button" value="Finalizar" onclick="finalizar()">
+        <div>
+            <p><div id="res"></div></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Cross Country Store</p>
+
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

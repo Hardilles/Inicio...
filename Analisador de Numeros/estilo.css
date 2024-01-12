@@ -1,0 +1,42 @@
+body{
+    background: rgb(57, 175, 57);
+    font: normal 15pt Arial;
+}
+
+header{             /*CABEÇALHO*/
+    color: hwb(0 100% 0%);
+    text-align: center;
+
+}
+
+section{            /*DIV*/
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    width: 350px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
+ 
+
+    
+}
+
+input#fnum{
+    width: 215px;
+}
+
+div#res{
+    font-size: 10pt;
+}
+
+select#flista{
+    width: 200px;
+}
+
+footer{                 /*RODAPÉ*/
+    font: normal 10pt;
+    color: #ffff;     /*texto branco*/
+    text-align: center; /*texto centralizado*/
+    font-style: italic; /*texto itálico*/
+
+}
