@@ -14,9 +14,9 @@ Este é meu primeiro projeto publicado.
 
 # Lista de Tarefa
 
-[] Criar página Principal
-[] Criar página Loja
-[] Tarefa concluida [x]
+- [ ] Criar página Principal
+- [ ] Criar página Loja
+- [x] Tarefa concluida [x]
 
 # imagem
 
