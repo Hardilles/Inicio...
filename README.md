@@ -16,6 +16,7 @@ Este é meu primeiro projeto publicado.
 
 - [] Criar página Principal
 - [] Criar página Loja
+- [] Tarefa concluida [x]
 
 # imagem
 
