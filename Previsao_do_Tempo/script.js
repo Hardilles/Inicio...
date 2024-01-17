@@ -8,6 +8,7 @@ function ColocarDadosNaTela(dados) {
     document.querySelector(".texto-previsao") .innerHTML = dados.weather[0].description
     document.querySelector(".umidade") .innerHTML = "Umidade relativa do ar " + dados.main.humidity + "%"
     document.querySelector(".img-previsao") .src = `https://openweathermap.org/img/wn/${dados.weather[0].icon}.png`
+    
 }
 
 async function BuscarCidade(cidade) {
